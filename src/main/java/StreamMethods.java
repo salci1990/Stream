@@ -115,5 +115,13 @@ public class StreamMethods {
                 .sorted()
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
+
+          // ".map(WebElement::getText) służy do konwersacji typu z WebElement na String
+//        indexes.stream()
+//                .filter(i -> i < elements.size())
+//                .map(elements::get)
+//                .map(WebElement::getText)
+//                .collect(Collectors.toList())
+
     }
 }
