@@ -91,7 +91,7 @@ public class StreamMethods {
                 .stream()
                 .toArray();
 
-        //no have idea what it doing (copy from internet)
+        //zwraca najdluzszy element
         listNames
                 .stream()
                 .reduce((word1, word2)
@@ -104,7 +104,7 @@ public class StreamMethods {
                 .flatMap(str -> Stream.of(str.charAt(2)))
                 .forEach(System.out::println);
 
-        //robi w ch** rzeczy :D
+        //zastosowanie kilku metod
         listNames
                 .stream()
                 .filter(name -> name.startsWith("M"))
