@@ -114,7 +114,6 @@ public class StreamMethods {
                 .skip(3)
                 .sorted()
                 .collect(Collectors.toList())
-                .forEach(System.out :: println);
-
+                .forEach(System.out::println);
     }
 }
