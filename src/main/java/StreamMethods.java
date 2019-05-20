@@ -109,10 +109,10 @@ public class StreamMethods {
                 .stream()
                 .filter(name -> name.startsWith("M"))
                 .map(String::toUpperCase)
-                .distinct()
-                .limit(10)
-                .skip(3)
-                .sorted()
+//                .distinct()
+//                .limit(10)
+//                .skip(3)
+//                .sorted()
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
 
